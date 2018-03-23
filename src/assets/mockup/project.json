@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Project 1",
+        "customer": "Customer 1"
+    },
+    {
+        "name": "Project 2",
+        "customer": "Customer 1"
+    },
+    {
+        "name": "Project 3",
+        "customer": "Customer 2"
+    }
+]

@@ -1,0 +1,159 @@
+
+.text-center {
+    text-align: center !important;
+}
+  
+.fixed {
+table-layout: fixed;
+}
+
+table {
+    margin-bottom: 25px;
+}
+
+table,
+td,
+th {
+border-collapse: collapse;
+}
+
+.btn-add {
+    width: 100%;
+    padding: 10px;
+    z-index: 9999;
+    display: block;
+    color: #ee1c25;
+    font-size: 1.6em;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px dashed #ee1c25;
+}
+
+/*Vue Style Begin*/
+
+.vue-timesheet-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-header {
+    color: #fff;
+    padding: 15px 0;
+    font-size: 19px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    background-color: #ee1c25;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-header h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-header h3 > .timesheet-date {
+    top: 5px;
+    right: 25px;
+    font-size: .6em;
+    position: absolute;
+}
+
+ .vue-timesheet-wrapper .vue-timesheet-content {
+    padding: 15px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #ddd;
+    border-top-color: transparent;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table {
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table th,
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table td {
+    padding: 5px 2px;
+ }
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table th > span,
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table td > span {
+    height: 40px;
+    display: block;
+    z-index: 99999;
+    line-height: 39px;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-header th {
+    position: relative;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-header th[data-status= 'weekend'] > span,
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-header th[data-status= 'day-off'] > span {
+    color: #fff;
+    background-color: #c3dcaf!important;
+}
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-header th[data-status= 'holiday'] > span {
+    color: #fff;
+    background-color: #8eb9ef!important;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-header th.today > span {
+    color: #fff;
+    background-color: #ee1c25;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-header th.today > span:before {
+    content: '';
+    left: 10px;
+    width: 0px;
+    height: 0px;
+    bottom: -10px;
+    margin: 0 auto;
+    border-radius: 2px;
+    position: absolute;
+    border-top: 7px solid #ee1c25;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-header th.today:before {
+    content: '';
+    width: 1px;
+    height: 200%;
+    position: absolute;
+    border-left: 1px dashed #ee1c25;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-content td > span {
+    background: #ddd;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-content td > span {
+    background: transparent;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-content td > span > select,
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-content td > span > input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.vue-timesheet-wrapper .vue-timesheet-content .vue-timesheet-table .vue-timesheet-table-content td > span > input {
+    border: none;
+    text-align: center;
+    background: #ddd;
+}
+
+/*Vue Style End*/

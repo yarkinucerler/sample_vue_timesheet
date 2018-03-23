@@ -1,0 +1,52 @@
+[
+  {
+      "title": "Yılbaşı",
+      "date": "1 Ocak 2018 Pazartesi",
+      "rowDate": ["01.01.2018"]
+  },
+  {
+      "title": "Ramazan Bayramı",
+      "date": "15 Haziran 2018 Cuma - 17 Haziran 2018 Pazar",
+      "rowDate": ["15.03.2018", "16.03.2018", "17.03.2018"]
+  },
+  {
+      "title": "Ulusal Egemenlik ve Çocuk Bayramı",
+      "date": "23 Nisan 2018 Pazartesi",
+      "rowDate": ["23.04.2018"]
+  },
+  {
+      "title": "Emek ve Dayanışma Günü",
+      "date": "1 Mayıs 2018 Salı",
+      "rowDate": ["01.05.2018"]
+  },
+  {
+      "title": "Atatürk'ü Anma Gençlik ve Spor Bayramı",
+      "date": "19 Mayıs 2018 Cumartesi",
+      "rowDate": ["19.5.2018"]
+  },
+  {
+      "title": "Ramazan Bayramı",
+      "date": "15 Haziran 2018 Cuma - 17 Haziran 2018 Pazar",
+      "rowDate": ["15.06.2018", "16.06.2018", "17.06.2018"]
+  },
+  {
+      "title": "15 Temmuz Demokrasi ve Özgürlükler Günü",
+      "date": "15 Temmuz 2018 Pazar",
+      "rowDate": ["15.07.2018"]
+  },
+  {
+      "title": "Kurban Bayramı",
+      "date": "21 Ağustos 2018 Salı - 24 Ağustos 2018 Cuma",
+      "rowDate": ["21.08.2018", "22.8.2018", "23.08.2018", "24.08.2018"]
+  },
+  {
+      "title": "Zafer Bayramı",
+      "date": "30 Ağustos 2018 Perşembe",
+      "rowDate": ["30.08.2018"]
+  },
+  {
+      "title": "Cumhuriyet Bayramı",
+      "date": "29 Ekim 2018 Pazartesi",
+      "rowDate": ["29.10.2018"]
+  }
+]
